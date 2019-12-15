@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258ee2ec-389e-4b3f-a3ec-975ad08503b2" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../leyou-manage-web/node_modules/" />
@@ -80,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/LySearchApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="184">
               <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ly_search/src/test/java/com/leyou/TestFeign.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,8 +166,8 @@
         <option value="$PROJECT_DIR$/ly_item_parent/ly_item_dto/src/main/java/com/leyou/DTO/SpuDTO.java" />
         <option value="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java" />
         <option value="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" />
-        <option value="$PROJECT_DIR$/ly_search/src/test/java/com/leyou/TestFeign.java" />
         <option value="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/ly_search/src/test/java/com/leyou/TestFeign.java" />
       </list>
     </option>
   </component>
@@ -602,7 +601,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576392133605" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576394593679" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly_search/src/main/java/com" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../leyou-manage-web" />
@@ -893,7 +892,7 @@
       <workItem from="1576331718458" duration="491000" />
       <workItem from="1576374311017" duration="8267000" />
       <workItem from="1576383479649" duration="1241000" />
-      <workItem from="1576393323558" duration="236000" />
+      <workItem from="1576393323558" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="jfyjhfj">
       <created>1576331937674</created>
@@ -965,7 +964,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576376652156</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="588">
+      <created>1576393712035</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576393712035</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1001,12 +1007,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15884000" />
+    <option name="totallyTimeSpent" value="16908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2885135" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1016,7 +1023,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932432" weight="0.48991355" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932432" weight="0.19164266" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1056,7 +1063,8 @@
     <MESSAGE value="feign接口" />
     <MESSAGE value="ddwdwd" />
     <MESSAGE value="fefefef" />
-    <option name="LAST_COMMIT_MESSAGE" value="fefefef" />
+    <MESSAGE value="588" />
+    <option name="LAST_COMMIT_MESSAGE" value="588" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="60" width="1293" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
@@ -1405,16 +1413,6 @@
     <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/LySearchApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2737">
@@ -1432,10 +1430,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/LySearchApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ly_search/src/test/java/com/leyou/TestFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
