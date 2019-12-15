@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.leyou.item.mapper.CategoryMapper">
+    <select id="queryByBrandId" resultType="com.leyou.item.pojo.Category">
+        select *from leyou.tb_category_brand left join leyou.tb_category
+        on leyou.tb_category_brand.category_id=leyou.tb_category.id
+        where
+        leyou.tb_category_brand.brand_id=#{id}
+    </select>
+</mapper>

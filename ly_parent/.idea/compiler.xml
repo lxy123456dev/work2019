@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ly_common" />
+        <module name="ly_gateway" />
+        <module name="ly_item_dto" />
+        <module name="ly_item_interface" />
+        <module name="ly_item_service" />
+        <module name="ly_registry" />
+        <module name="ly_search" />
+        <module name="ly_upload" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lysearch" target="1.8" />
+      <module name="lyupload" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ly_common" options="-parameters" />
+      <module name="ly_gateway" options="-parameters" />
+      <module name="ly_item_dto" options="-parameters" />
+      <module name="ly_item_interface" options="-parameters" />
+      <module name="ly_item_service" options="-parameters" />
+      <module name="ly_registry" options="-parameters" />
+      <module name="ly_search" options="-parameters" />
+      <module name="ly_upload" options="-parameters" />
+      <module name="lysearch" options="-parameters" />
+      <module name="lyupload" options="-parameters" />
+    </option>
+  </component>
+</project>

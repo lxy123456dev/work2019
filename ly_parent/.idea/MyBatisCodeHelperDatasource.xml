@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="generatedClassPathList">
+          <list>
+            <option value="D:\workspace\ly_parent\ly_item_parent\ly_item_service\src\main\java\com\leyou\item\pojo" />
+          </list>
+        </option>
+        <option name="mapperFilesFolder" value="D:\workspace\ly_parent\ly_item_parent\ly_item_service\src\main\resources\mappers" />
+        <option name="mapperFilesFolderList">
+          <list>
+            <option value="D:\workspace\ly_parent\ly_item_parent\ly_item_service\src\main\resources\mappers" />
+          </list>
+        </option>
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

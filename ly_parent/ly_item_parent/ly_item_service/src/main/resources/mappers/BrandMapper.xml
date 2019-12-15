@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.leyou.item.mapper.BrandMapper">
+
+    <insert id="insertCategoryBrand">
+        insert into tb_category_brand(category_id,brand_id)
+        <foreach collection="cids" open="VALUES" item="cid" separator=",">
+            (#{cid},#{bid})
+        </foreach>
+    </insert>
+    <delete id="deleteCategoryBrand">
+        DELETE from tb_category_brand WHERE brand_id = #{bid}
+    </delete>
+    <select id="queryByCategoryId" resultType="com.leyou.item.pojo.Brand">
+        SELECT b.* FROM `tb_brand` b,tb_category_brand cb where cb.brand_id = b.id and cb.category_id = #{categoryId}
+    </select>
+</mapper>
