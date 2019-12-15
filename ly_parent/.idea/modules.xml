@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../leyou-manage-web/leyou-manage-web.iml" filepath="$PROJECT_DIR$/../leyou-manage-web/leyou-manage-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../leyou-portal/leyou-portal.iml" filepath="$PROJECT_DIR$/../leyou-portal/leyou-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../leyou-manage-web/leyou-manage-web.iml" filepath="$PROJECT_DIR$/../../leyou-manage-web/leyou-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../leyou-portal/leyou-portal.iml" filepath="$PROJECT_DIR$/../../leyou-portal/leyou-portal.iml" />
     </modules>
   </component>
 </project>

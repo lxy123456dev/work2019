@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258ee2ec-389e-4b3f-a3ec-975ad08503b2" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a25e062-57ac-4206-9e9c-78af0ec86521.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5a25e062-57ac-4206-9e9c-78af0ec86521.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_search/src/test/java/com/leyou/TestFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_search/src/test/java/com/leyou/TestFeign.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../leyou-manage-web/node_modules/" />
     <ignored path="$PROJECT_DIR$/../leyou-portal/node_modules/" />
@@ -96,7 +92,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ly_search/src/test/java/com/leyou/TestFeign.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
+            <state relative-caret-position="315">
               <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/GoodsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="145" column="34" lean-forward="true" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+            <state relative-caret-position="2737">
+              <caret line="145" column="34" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -609,7 +605,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576392133605" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly_search/src/main/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../leyou-manage-web" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -676,7 +672,7 @@
     </option>
     <option name="contentProportion" value="0.19182825" />
   </component>
-  <component name="RunManager" selected="JUnit.TestFeign">
+  <component name="RunManager" selected="Application.MavenClean">
     <configuration name="MavenClean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MavenClean" />
       <module name="ly_item_service" />
@@ -778,7 +774,7 @@
       </method>
     </configuration>
     <configuration name="portal" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/../leyou-portal/package.json" />
+      <package-json value="$PROJECT_DIR$/../../leyou-portal/package.json" />
       <command value="run" />
       <scripts>
         <script value="serve" />
@@ -788,7 +784,7 @@
       <method v="2" />
     </configuration>
     <configuration name="serve" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/../leyou-manage-web/package.json" />
+      <package-json value="$PROJECT_DIR$/../../leyou-manage-web/package.json" />
       <command value="run" />
       <scripts>
         <script value="serve" />
@@ -820,10 +816,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MavenClean" />
         <item itemvalue="JUnit.TestFeign" />
         <item itemvalue="Spring Boot.LySearchApplication" />
         <item itemvalue="JUnit.TestFeign.test" />
-        <item itemvalue="Application.MavenClean" />
         <item itemvalue="npm.portal" />
       </list>
     </recent_temporary>
@@ -897,6 +893,7 @@
       <workItem from="1576331718458" duration="491000" />
       <workItem from="1576374311017" duration="8267000" />
       <workItem from="1576383479649" duration="1241000" />
+      <workItem from="1576393323558" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="jfyjhfj">
       <created>1576331937674</created>
@@ -1004,13 +1001,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15643000" />
+    <option name="totallyTimeSpent" value="15884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2837838" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2885135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1018,7 +1014,6 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="设计器" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299712" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932432" weight="0.48991355" />
@@ -1037,6 +1032,7 @@
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49864864" weight="0.3299712" />
       <window_info anchor="bottom" id="调试" order="16" sideWeight="0.49864864" weight="0.37896255" />
       <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.56340057" />
+      <window_info anchor="bottom" id="Database Console" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1044,7 +1040,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="调色板" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" weight="0.32972974" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.2027027" />
+      <window_info anchor="right" id="Database" order="7" weight="0.2027027" />
       <window_info anchor="right" id="Mybatis datasource" order="8" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
@@ -1378,36 +1374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/LySearchApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/pojo/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/util/CollectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1429,16 +1395,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/LySearchApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="145" column="34" lean-forward="true" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+        <state relative-caret-position="2737">
+          <caret line="145" column="34" selection-start-line="145" selection-start-column="34" selection-end-line="145" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ly_search/src/test/java/com/leyou/TestFeign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
+        <state relative-caret-position="315">
           <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
