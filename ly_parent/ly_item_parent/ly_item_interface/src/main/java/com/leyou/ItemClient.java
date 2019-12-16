@@ -1,15 +1,13 @@
 package com.leyou;
 
-import com.leyou.DTO.SkuDTO;
-import com.leyou.DTO.SpecParamDTO;
-import com.leyou.DTO.SpuDTO;
-import com.leyou.DTO.SpuDetailDTO;
+import com.leyou.DTO.*;
 import com.leyou.exception.vo.PageResult;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
+import java.util.Map;
 
 @FeignClient("item-service")
 public interface ItemClient {
@@ -28,4 +26,9 @@ public interface ItemClient {
                                                               @RequestParam(value = "cid",required = false)Long cid);
     @GetMapping("/spu/detail")
     public SpuDetailDTO querySpuDetailBySpuId(@RequestParam("id") Long spuId);
+
+    @GetMapping("/category/list")
+    public List<CategoryDTO> queryCategoryListByIds(@RequestParam("ids") List<Long> categoryIds);
+    @GetMapping("/brand/list")
+    public List<BrandDTO> queryBrandListByIds(@RequestParam("ids") List<Long> brandIdList);
 }

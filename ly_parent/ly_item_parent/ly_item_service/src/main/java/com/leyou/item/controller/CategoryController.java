@@ -25,5 +25,9 @@ public class CategoryController {
     public ResponseEntity<List<CategoryDTO>> changeByBrandId(@RequestParam("id")Long id) {
         return ResponseEntity.ok(categoryService.queryListByBrandId(id));
     }
+    @GetMapping("/category/list")
+    public ResponseEntity<List<CategoryDTO>> queryCategoryListByIds(@RequestParam("ids") List<Long> categoryIds){
+        return ResponseEntity.ok(categoryService.queryCategoryByIds(categoryIds));
+    }
 
 }

@@ -41,4 +41,9 @@ public class BrandController {
         brandService.updateBrand(brand, ids);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
+    @GetMapping("/list")
+    public ResponseEntity<List<BrandDTO>> queryBrandListByIds(@RequestParam("ids") List<Long> brandIdList){
+        System.out.println(brandService.queryBrandListByIds(brandIdList));
+        return ResponseEntity.ok(brandService.queryBrandListByIds(brandIdList));
+    }
 }

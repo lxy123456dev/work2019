@@ -95,4 +95,12 @@ public class BrandService {
         }
         return BeanHelper.copyWithCollection(brandList, BrandDTO.class);
     }
+
+    public List<BrandDTO> queryBrandListByIds(List<Long> brandIdList) {
+        List<Brand> brandList = brandMapper.selectByIdList(brandIdList);
+        if (CollectionUtils.isEmpty(brandIdList)) {
+            throw new LyException(ResponseCode.BRAND_NOT_FOUND);
+        }
+        return BeanHelper.copyWithCollection(brandList, BrandDTO.class);
+    }
 }

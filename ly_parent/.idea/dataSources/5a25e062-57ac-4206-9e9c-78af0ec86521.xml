@@ -1771,15 +1771,17 @@ create_time</ColNames>
     </column>
     <column id="389" parent="298" name="create_time">
       <Position>10</Position>
-      <Comment>ggughj</Comment>
+      <Comment>添加时间</Comment>
       <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="390" parent="298" name="update_time">
       <Position>11</Position>
-      <Comment>闁哄牃鍋撻柛姘凹閹便劑寮ㄧ憴鍕槯闂?</Comment>
+      <Comment>最后修改时间</Comment>
       <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
       <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>

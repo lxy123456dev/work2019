@@ -1,15 +1,28 @@
 package com.leyou.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.leyou.DTO.SkuDTO;
-import com.leyou.DTO.SpecParamDTO;
-import com.leyou.DTO.SpuDTO;
-import com.leyou.DTO.SpuDetailDTO;
+import com.leyou.DTO.*;
 import com.leyou.ItemClient;
+import com.leyou.dto.GoodsDTO;
+import com.leyou.exception.LyException;
+import com.leyou.exception.enums.ResponseCode;
+import com.leyou.exception.vo.PageResult;
 import com.leyou.pojo.Goods;
+import com.leyou.utils.BeanHelper;
 import com.leyou.utils.JsonUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.elasticsearch.index.query.MatchQueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.index.similarity.ScriptedSimilarity;
+import org.elasticsearch.search.aggregations.AggregationBuilders;
+import org.elasticsearch.search.aggregations.Aggregations;
+import org.elasticsearch.search.aggregations.bucket.terms.Terms;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
+import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
+import org.springframework.data.elasticsearch.core.query.FetchSourceFilter;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -22,6 +35,8 @@ import java.util.stream.Collectors;
 public class GoodsIndexService {
     @Autowired
     private ItemClient itemClient;
+    @Autowired
+    private ElasticsearchTemplate elasticsearchTemplate;
     public Goods buildGoods(SpuDTO spuDTO) {
         Goods goods = new Goods();
         goods.setId(spuDTO.getId());
@@ -125,4 +140,64 @@ public class GoodsIndexService {
         }
     }
 
+    public PageResult<GoodsDTO> searchByKey(SearchRequest searchRequest) {
+
+        NativeSearchQueryBuilder builder = new NativeSearchQueryBuilder();
+        String key = searchRequest.getKey();
+        if (StringUtils.isBlank(key)) {
+            throw new LyException(ResponseCode.INVALID_PARAM_ERROR);
+        }
+        builder.withQuery(basicQuery(searchRequest));
+        Integer page = searchRequest.getPage();
+        Integer size = searchRequest.getSize();
+        builder.withPageable(PageRequest.of(page, size));
+        builder.withSourceFilter(new FetchSourceFilter(new String[]{"id", "skus", "subTitle"}, null));
+        AggregatedPage<Goods> goodsResult = elasticsearchTemplate.queryForPage(builder.build(), Goods.class);
+        long totalElements = goodsResult.getTotalElements();
+        int totalPages = goodsResult.getTotalPages();
+        List<Goods> content = goodsResult.getContent();
+        return new PageResult<>(totalElements,
+                                totalPages,
+                BeanHelper.copyWithCollection(content,GoodsDTO.class));
+    }
+
+    private MatchQueryBuilder basicQuery(SearchRequest searchRequest) {
+        return QueryBuilders.matchQuery("all",searchRequest.getKey());
+    }
+
+    public Map<String, List<?>> searchFilter(SearchRequest searchRequest) {
+        Map<String, List<?>> mapResult = new HashMap<>();
+        NativeSearchQueryBuilder builder = new NativeSearchQueryBuilder();
+        String key = searchRequest.getKey();
+        if (StringUtils.isBlank(key)) {
+            throw new LyException(ResponseCode.INVALID_PARAM_ERROR);
+        }
+        builder.withQuery(basicQuery(searchRequest));
+        String categoryAgg = "categoryAgg";
+        builder.addAggregation(AggregationBuilders.terms(categoryAgg).field("categoryId"));
+        //添加品牌聚合
+        String brandAgg = "brandAgg";
+        builder.addAggregation(AggregationBuilders.terms(brandAgg).field("brandId"));
+        builder.withPageable(PageRequest.of(0,1));
+        Aggregations aggregations = elasticsearchTemplate.queryForPage(builder.build(), Goods.class).getAggregations();
+        handlerCategory(aggregations.get(categoryAgg), mapResult);
+        handlerBrandAgg(aggregations.get(brandAgg), mapResult);
+        return mapResult;
+    }
+
+    private void handlerBrandAgg(Terms aggregation, Map<String, List<?>> mapResult) {
+       /* */
+        List<Long> brandIdList = aggregation.getBuckets().stream().map(Terms.Bucket::getKeyAsNumber).map(Number::longValue).collect(Collectors.toList());
+        List<BrandDTO> brandDTOList = itemClient.queryBrandListByIds(brandIdList);
+        mapResult.put("品牌", brandDTOList);
+    }
+
+    private void handlerCategory(Terms aggregation, Map<String, List<?>> mapResult) {
+        List<Long> list = aggregation.getBuckets().stream().
+                map(Terms.Bucket::getKeyAsNumber).
+                map(Number::longValue).
+                collect(Collectors.toList());
+        List<CategoryDTO> categoryDTOList = itemClient.queryCategoryListByIds(list);
+        mapResult.put("分类", categoryDTOList);
+    }
 }
