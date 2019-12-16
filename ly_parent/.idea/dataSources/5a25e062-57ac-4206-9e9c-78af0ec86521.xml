@@ -34,7 +34,7 @@
     </schema>
     <schema id="10" parent="1" name="leyou">
       <Visible>1</Visible>
-      <Collation>utf8mb4_general_ci</Collation>
+      <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="11" parent="1" name="mybatisdb">
       <Collation>utf8mb4_0900_ai_ci</Collation>
@@ -1146,56 +1146,41 @@
     </collation>
     <table id="290" parent="10" name="tb_application">
       <Comment>服务信息表，记录微服务的id，名称，密文，用来做服务认证</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="291" parent="10" name="tb_application_privilege">
       <Comment>服务中间表，记录服务id以及服务能访问的目标服务的id</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="292" parent="10" name="tb_brand">
       <Comment>品牌表，一个品牌下有多个商品（spu），一对多关系</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="293" parent="10" name="tb_category">
       <Comment>商品类目表，类目和商品(spu)是一对多关系，类目与品牌是多对多关系</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="294" parent="10" name="tb_category_brand">
       <Comment>商品分类和品牌的中间表，两者是多对多关系</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="295" parent="10" name="tb_order">
       <Collation>utf8_bin</Collation>
     </table>
     <table id="296" parent="10" name="tb_order_detail">
       <Comment>订单详情表</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="297" parent="10" name="tb_order_logistics">
-      <Collation>utf8_general_ci</Collation>
-    </table>
+    <table id="297" parent="10" name="tb_order_logistics"/>
     <table id="298" parent="10" name="tb_sku">
       <Comment>sku表,该表表示具体的商品实体,如黑色的 64g的iphone 8</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="299" parent="10" name="tb_spec_group">
       <Comment>规格参数的分组表，每个商品分类下有多个规格参数组</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="300" parent="10" name="tb_spec_param">
       <Comment>规格参数组下的参数名</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="301" parent="10" name="tb_spu">
       <Comment>spu表，该表描述的是一个抽象性的商品，比如 iphone8</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
-    <table id="302" parent="10" name="tb_spu_detail">
-      <Collation>utf8_general_ci</Collation>
-    </table>
+    <table id="302" parent="10" name="tb_spu_detail"/>
     <table id="303" parent="10" name="tb_user">
       <Comment>用户表</Comment>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <column id="304" parent="290" name="id">
       <Position>1</Position>

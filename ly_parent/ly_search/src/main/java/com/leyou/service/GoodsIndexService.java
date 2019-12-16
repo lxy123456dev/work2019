@@ -13,6 +13,7 @@ import com.leyou.utils.JsonUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.elasticsearch.search.aggregations.Aggregation;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.elasticsearch.search.aggregations.Aggregations;
 import org.elasticsearch.search.aggregations.bucket.terms.Terms;
@@ -94,6 +95,7 @@ public class GoodsIndexService {
                 value = chooseSegment(value, specParamDTO);
                 //如果是区间范围规格参数值 ，需要确定哪个区间
             }
+            value = chooseSegment(value, specParamDTO);
             specs.put(key, value);
         }
 

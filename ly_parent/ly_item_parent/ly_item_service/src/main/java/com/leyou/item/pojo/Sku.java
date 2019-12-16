@@ -9,7 +9,7 @@ import javax.persistence.Table;
 @Data
 @Table(name = "tb_sku")
 public class Sku {
-    /*public Sku() {
+  /*  public Sku() {
         this.createTime = new Date();
         this.updateTime = new Date();
     }*/
