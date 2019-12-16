@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="258ee2ec-389e-4b3f-a3ec-975ad08503b2" name="默认更改列表" comment="drrd">
-      <change afterPath="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/controller/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/dto/GoodsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/SearchRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a25e062-57ac-4206-9e9c-78af0ec86521.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5a25e062-57ac-4206-9e9c-78af0ec86521.xml" afterDir="false" />
+    <list default="true" id="258ee2ec-389e-4b3f-a3ec-975ad08503b2" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_search/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../leyou-manage-web/node_modules/" />
@@ -72,51 +62,25 @@
     <favorites_list name="ly_parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java">
+        <entry file="file://$PROJECT_DIR$/../../leyou-portal/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="632">
+              <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/CategoryService.java">
+        <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/CategoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/CategoryMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/mapper/MyBaseMappers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="10" column="54" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="-1285">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -124,29 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/controller/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/BrandController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="200" column="45" selection-start-line="200" selection-start-column="45" selection-end-line="200" selection-end-column="45" />
+            <state relative-caret-position="530">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,6 +151,7 @@
         <option value="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/BrandController.java" />
         <option value="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/CategoryMapper.java" />
         <option value="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/../../leyou-portal/search.html" />
         <option value="$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java" />
       </list>
     </option>
@@ -249,6 +193,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,186 +204,6 @@
             <path>
               <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_item_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
               <item name="ly_search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -480,39 +245,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -536,53 +268,10 @@
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -599,7 +288,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576421425789" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576463705373" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly_search/src/main/java/com" />
@@ -671,7 +360,7 @@
     </option>
     <option name="contentProportion" value="0.25484765" />
   </component>
-  <component name="RunManager" selected="Spring Boot.LyServiceApplication">
+  <component name="RunManager" selected="Spring Boot.LyUploadApplication">
     <configuration name="MavenClean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MavenClean" />
       <module name="ly_item_service" />
@@ -895,6 +584,7 @@
       <workItem from="1576383479649" duration="1241000" />
       <workItem from="1576393323558" duration="14260000" />
       <workItem from="1576417689954" duration="3719000" />
+      <workItem from="1576460297996" duration="3516000" />
     </task>
     <task id="LOCAL-00001" summary="jfyjhfj">
       <created>1576331937674</created>
@@ -980,7 +670,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576394644457</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="drrd">
+      <created>1576460325269</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576460325269</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1016,12 +713,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33622000" />
+    <option name="totallyTimeSpent" value="37138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27972972" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3006757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1031,7 +729,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299712" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932432" weight="0.19164266" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932432" weight="0.37319884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1046,7 +744,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3299712" />
       <window_info anchor="bottom" id="Messages" order="15" sideWeight="0.49864864" weight="0.3299712" />
       <window_info anchor="bottom" id="调试" order="16" sideWeight="0.49864864" weight="0.37896255" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.41786742" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.3501441" />
       <window_info anchor="bottom" id="Database Console" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1230,11 +928,6 @@
     <entry file="das://5a25e062-57ac-4206-9e9c-78af0ec86521/collation/armscii8_bin">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../leyou-portal/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1035" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly_search/src/test/java/com/leyou/TestFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1417,53 +1110,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="529">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/CategoryMapper.java">
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/BrandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="805">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/mapper/MyBaseMappers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="54" />
+        <state relative-caret-position="184">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java">
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/CategoryMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="200" column="45" selection-start-line="200" selection-start-column="45" selection-end-line="200" selection-end-column="45" />
+        <state relative-caret-position="46">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../leyou-portal/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1475,17 +1173,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/CategoryController.java">
+    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/controller/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="530">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/CategoryService.java">
+    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="-1285">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
