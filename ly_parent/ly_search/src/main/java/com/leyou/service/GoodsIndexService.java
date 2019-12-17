@@ -11,9 +11,7 @@ import com.leyou.pojo.Goods;
 import com.leyou.utils.BeanHelper;
 import com.leyou.utils.JsonUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.elasticsearch.index.query.MatchQueryBuilder;
-import org.elasticsearch.index.query.QueryBuilders;
-import org.elasticsearch.search.aggregations.Aggregation;
+import org.elasticsearch.index.query.*;
 import org.elasticsearch.search.aggregations.AggregationBuilders;
 import org.elasticsearch.search.aggregations.Aggregations;
 import org.elasticsearch.search.aggregations.bucket.terms.Terms;
@@ -24,11 +22,9 @@ import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
 import org.springframework.data.elasticsearch.core.query.FetchSourceFilter;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
@@ -37,6 +33,7 @@ public class GoodsIndexService {
     private ItemClient itemClient;
     @Autowired
     private ElasticsearchTemplate elasticsearchTemplate;
+
     public Goods buildGoods(SpuDTO spuDTO) {
         Goods goods = new Goods();
         goods.setId(spuDTO.getId());
@@ -45,7 +42,7 @@ public class GoodsIndexService {
         goods.setCategoryId(spuDTO.getCid3());
         goods.setCreateTime(spuDTO.getCreateTime().getTime());
 
-        String all = spuDTO.getName()+spuDTO.getBrandName()+spuDTO.getCategoryName();
+        String all = spuDTO.getName() + spuDTO.getBrandName() + spuDTO.getCategoryName();
         goods.setAll(all);
 
         //根据商品ID查询 sku列表
@@ -65,7 +62,7 @@ public class GoodsIndexService {
         //规格参数
 
         //先查询规格参数表：需要当前分类，进行搜索的规格参数  获取规格参数key
-        List<SpecParamDTO> specParamDTOList = itemClient.querySpecParams(null,spuDTO.getCid3());
+        List<SpecParamDTO> specParamDTOList = itemClient.querySpecParams(null, spuDTO.getCid3(), true);
         //根据spuID查询商品详情对象  获取规格参数value
         SpuDetailDTO spuDetailDTO = itemClient.querySpuDetailBySpuId(spuDTO.getId());
 
@@ -82,15 +79,15 @@ public class GoodsIndexService {
         for (SpecParamDTO specParamDTO : specParamDTOList) {
             String key = specParamDTO.getName();
             Object value = "";
-            if(specParamDTO.getGeneric()){
+            if (specParamDTO.getGeneric()) {
                 //普通规格参数
                 value = specParamMap.get(specParamDTO.getId());
-            }else{
+            } else {
                 //特殊规格参数
                 value = specialSpecMap.get(specParamDTO.getId());
             }
             //判断数值类型
-            if(specParamDTO.getNumeric()){
+            if (specParamDTO.getNumeric()) {
                 //如果是数值类型-需要设置单位
                 value = chooseSegment(value, specParamDTO);
                 //如果是区间范围规格参数值 ，需要确定哪个区间
@@ -151,54 +148,102 @@ public class GoodsIndexService {
         builder.withQuery(basicQuery(searchRequest));
         Integer page = searchRequest.getPage();
         Integer size = searchRequest.getSize();
-        builder.withPageable(PageRequest.of(page, size));
+        builder.withPageable(PageRequest.of(page - 1, size));
         builder.withSourceFilter(new FetchSourceFilter(new String[]{"id", "skus", "subTitle"}, null));
         AggregatedPage<Goods> goodsResult = elasticsearchTemplate.queryForPage(builder.build(), Goods.class);
         long totalElements = goodsResult.getTotalElements();
         int totalPages = goodsResult.getTotalPages();
         List<Goods> content = goodsResult.getContent();
         return new PageResult<>(totalElements,
-                                totalPages,
-                BeanHelper.copyWithCollection(content,GoodsDTO.class));
+                totalPages,
+                BeanHelper.copyWithCollection(content, GoodsDTO.class));
     }
 
-    private MatchQueryBuilder basicQuery(SearchRequest searchRequest) {
-        return QueryBuilders.matchQuery("all",searchRequest.getKey());
+    private QueryBuilder basicQuery(SearchRequest searchRequest) {
+        BoolQueryBuilder boolQuery = QueryBuilders.boolQuery();
+        boolQuery.must(QueryBuilders.matchQuery("all", searchRequest.getKey()).operator(Operator.AND));
+        Map<String, String> searchFilterItem = searchRequest.getFilter();
+        if(!CollectionUtils.isEmpty(searchFilterItem)){
+            //Map<String,String> = {品牌:2301,"CPU核数"："八核"}
+            for (Map.Entry<String, String> entry : searchFilterItem.entrySet()) {
+                String key = entry.getKey();
+                //如果用户选择品牌过滤项提交参数key:品牌，将修改“brandId” 进行词条查询
+                if("品牌".equals(key)){
+                    key = "brandId";
+                }else if("分类".equals(key)){
+                    key = "categoryId";
+                }else{
+                    key = "specs."+key;
+                }
+                String value = entry.getValue();
+                //and关系设置过滤条件  term 进行精确匹配
+                boolQuery.filter(QueryBuilders.termQuery(key, value));
+            }
+        }
+
+        return boolQuery;
     }
 
     public Map<String, List<?>> searchFilter(SearchRequest searchRequest) {
-        Map<String, List<?>> mapResult = new HashMap<>();
+        Map<String, List<?>> mapResult = new LinkedHashMap<>();
         NativeSearchQueryBuilder builder = new NativeSearchQueryBuilder();
         String key = searchRequest.getKey();
         if (StringUtils.isBlank(key)) {
             throw new LyException(ResponseCode.INVALID_PARAM_ERROR);
         }
-        builder.withQuery(basicQuery(searchRequest));
+        QueryBuilder matchQueryBuilder = basicQuery(searchRequest);
+        builder.withQuery(matchQueryBuilder);
         String categoryAgg = "categoryAgg";
         builder.addAggregation(AggregationBuilders.terms(categoryAgg).field("categoryId"));
         //添加品牌聚合
         String brandAgg = "brandAgg";
         builder.addAggregation(AggregationBuilders.terms(brandAgg).field("brandId"));
-        builder.withPageable(PageRequest.of(0,1));
+        builder.withPageable(PageRequest.of(0, 1));
         Aggregations aggregations = elasticsearchTemplate.queryForPage(builder.build(), Goods.class).getAggregations();
-        handlerCategory(aggregations.get(categoryAgg), mapResult);
+        List<Long> category = handlerCategory(aggregations.get(categoryAgg), mapResult);
+        if (category != null && category.size() == 1) {
+            handlerSpecAgg(category.get(0), matchQueryBuilder, mapResult);
+        }
         handlerBrandAgg(aggregations.get(brandAgg), mapResult);
         return mapResult;
     }
 
+    private void handlerSpecAgg(Long cid, QueryBuilder builder, Map<String, List<?>> mapResult) {
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+        queryBuilder.withQuery(builder);
+        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{}, null));
+        queryBuilder.withPageable(PageRequest.of(0, 1));
+        List<SpecParamDTO> specParamDTOList = itemClient.querySpecParams(null, cid, true);
+        specParamDTOList.forEach(specParamDTO -> {
+            //增加聚合字段-取规格参数名称
+            String name = specParamDTO.getName();  //聚合名称
+            queryBuilder.addAggregation(AggregationBuilders.terms(name).field("specs." + name));
+        });
+            AggregatedPage<Goods> result = elasticsearchTemplate.queryForPage(queryBuilder.build(), Goods.class);
+            Aggregations aggregations = result.getAggregations();
+            specParamDTOList.forEach(specParamDTO -> {
+            String aggName = specParamDTO.getName();
+            Terms aggregation = aggregations.get(aggName);
+            List<String> specList = aggregation.getBuckets().stream().map(Terms.Bucket::getKeyAsString).collect(Collectors.toList());
+            mapResult.put(aggName, specList);
+        });
+
+    }
+
     private void handlerBrandAgg(Terms aggregation, Map<String, List<?>> mapResult) {
-       /* */
+        /* */
         List<Long> brandIdList = aggregation.getBuckets().stream().map(Terms.Bucket::getKeyAsNumber).map(Number::longValue).collect(Collectors.toList());
         List<BrandDTO> brandDTOList = itemClient.queryBrandListByIds(brandIdList);
         mapResult.put("品牌", brandDTOList);
     }
 
-    private void handlerCategory(Terms aggregation, Map<String, List<?>> mapResult) {
+    private List<Long> handlerCategory(Terms aggregation, Map<String, List<?>> mapResult) {
         List<Long> list = aggregation.getBuckets().stream().
                 map(Terms.Bucket::getKeyAsNumber).
                 map(Number::longValue).
                 collect(Collectors.toList());
         List<CategoryDTO> categoryDTOList = itemClient.queryCategoryListByIds(list);
         mapResult.put("分类", categoryDTOList);
+        return list;
     }
 }

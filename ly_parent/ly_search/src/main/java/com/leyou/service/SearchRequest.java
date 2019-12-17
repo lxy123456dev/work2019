@@ -1,9 +1,20 @@
 package com.leyou.service;
 
+import java.util.Map;
+
 public class SearchRequest {
     private String key;  //关键字
     private Integer page;   //当前页码
-    //todo 其他过滤条件
+    private Map<String, String> filter;
+
+    public Map<String, String> getFilter() {
+        return filter;
+    }
+
+    public void setFilter(Map<String, String> filter) {
+        this.filter = filter;
+    }
+
     private static final Integer DEFAULT_PAGE = 1;
     private static final Integer DEFAULT_SIZE = 20;
 

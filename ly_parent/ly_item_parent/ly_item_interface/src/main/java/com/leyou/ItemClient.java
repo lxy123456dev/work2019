@@ -3,6 +3,7 @@ package com.leyou;
 import com.leyou.DTO.*;
 import com.leyou.exception.vo.PageResult;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -23,7 +24,8 @@ public interface ItemClient {
     public List<SkuDTO> querySkuBySpuId(@RequestParam("id") Long id);
     @GetMapping("/spec/params")
     public List<SpecParamDTO> querySpecParams(@RequestParam(value = "gid",required = false) Long gid,
-                                                              @RequestParam(value = "cid",required = false)Long cid);
+                                                              @RequestParam(value = "cid",required = false)Long cid,
+                                                              @RequestParam(value = "searching",required = false) Boolean searching);
     @GetMapping("/spu/detail")
     public SpuDetailDTO querySpuDetailBySpuId(@RequestParam("id") Long spuId);
 

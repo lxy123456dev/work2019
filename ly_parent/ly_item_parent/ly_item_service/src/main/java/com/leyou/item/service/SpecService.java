@@ -34,10 +34,11 @@ public class SpecService {
         return BeanHelper.copyWithCollection(list, SpecGroupDTO.class);
     }
 
-    public List<SpecParamDTO> querySpecParams(Long gid,Long cid) {
+    public List<SpecParamDTO> querySpecParams(Long gid,Long cid,Boolean searching) {
         SpecParam s = new SpecParam();
         s.setGroupId(gid);
         s.setCid(cid);
+        s.setSearching(searching);
         if (gid ==null&&cid==null) {
             throw new LyException(ResponseCode.ERROR);
         }
