@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258ee2ec-389e-4b3f-a3ec-975ad08503b2" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/SpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/SpecController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/SpecService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/SpecService.java" afterDir="false" />
@@ -64,12 +65,12 @@
     <favorites_list name="ly_parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8">
-              <caret line="215" column="90" lean-forward="true" selection-start-line="215" selection-start-column="90" selection-end-line="215" selection-end-column="90" />
+            <state>
+              <caret line="215" column="90" selection-start-line="215" selection-start-column="90" selection-end-line="215" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            <state relative-caret-position="437">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -98,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/SpecController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="23" column="40" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="106" />
+            <state relative-caret-position="322">
+              <caret line="23" column="40" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -107,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/SpecService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            <state relative-caret-position="575">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -175,8 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -441,6 +440,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -759,6 +760,7 @@
       <workItem from="1576460297996" duration="7490000" />
       <workItem from="1576478563126" duration="166000" />
       <workItem from="1576480735457" duration="12258000" />
+      <workItem from="1576555120911" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="jfyjhfj">
       <created>1576331937674</created>
@@ -865,7 +867,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576489212976</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="drrd">
+      <created>1576555143359</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576555143359</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -901,31 +910,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12258000" />
+    <option name="totallyTimeSpent" value="12437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="设计器" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12027027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23648648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Spring" weight="0.3299712" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3299712" />
-      <window_info anchor="bottom" id="调试" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.88040346" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="设计器" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4985591" />
@@ -933,18 +930,30 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="调色板" />
-      <window_info anchor="right" id="Mybatis datasource" side_tool="true" />
-      <window_info anchor="right" id="Database" weight="0.24797298" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3299712" />
+      <window_info anchor="bottom" id="Database Console" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.3299712" />
+      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="bottom" id="调试" order="17" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.31268013" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="调色板" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" weight="0.24797298" />
+      <window_info anchor="right" id="Mybatis datasource" order="8" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1107,27 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/SpecService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/SpecController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/SearchRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1158,6 +1146,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ly_search/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="215" column="90" selection-start-line="215" selection-start-column="90" selection-end-line="215" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/controller/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1165,16 +1166,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_search/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_search/src/main/java/com/leyou/service/GoodsIndexService.java">
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="215" column="90" lean-forward="true" selection-start-line="215" selection-start-column="90" selection-end-line="215" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/SpecController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="40" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/SpecService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
         </state>
       </provider>
     </entry>
