@@ -196,4 +196,19 @@ public class GoodsService {
             throw new LyException(ResponseCode.UPDATE_OPERATION_FAIL);
         }
     }
+
+    public SpuDTO querySpuById(Long id) {
+        // 查询spu
+        Spu spu = spuMapper.selectByPrimaryKey(id);
+        SpuDTO spuDTO = BeanHelper.copyProperties(spu, SpuDTO.class);
+        // 查询spuDetail
+        if (spuDTO != null) {
+            spuDTO.setSpuDetail(querySpuDetailBySpuId(id));
+        }
+        // 查询sku
+        if (spuDTO != null) {
+            spuDTO.setSkus(querySkuListBySpuId(id));
+        }
+        return spuDTO;
+    }
 }

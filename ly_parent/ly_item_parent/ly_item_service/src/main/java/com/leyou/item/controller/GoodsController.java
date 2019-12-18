@@ -53,4 +53,13 @@ public class GoodsController {
         goodsService.updateGoods(spu);
         return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
     }
+    /**
+     * 根据spu的id查询spu
+     * @param id
+     * @return
+     */
+    @GetMapping("spu/{id}")
+    public ResponseEntity<SpuDTO> querySpuById(@PathVariable("id") Long id){
+        return ResponseEntity.ok(goodsService.querySpuById(id));
+    }
 }

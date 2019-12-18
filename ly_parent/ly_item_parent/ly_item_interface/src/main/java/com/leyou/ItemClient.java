@@ -5,6 +5,7 @@ import com.leyou.exception.vo.PageResult;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
@@ -33,4 +34,15 @@ public interface ItemClient {
     public List<CategoryDTO> queryCategoryListByIds(@RequestParam("ids") List<Long> categoryIds);
     @GetMapping("/brand/list")
     public List<BrandDTO> queryBrandListByIds(@RequestParam("ids") List<Long> brandIdList);
+    /**
+     * 根据spu的id查询spu
+     * @param id
+     * @return
+     */
+    @GetMapping("spu/{id}")
+    SpuDTO querySpuById(@PathVariable("id") Long id);
+    @GetMapping("/spec/of/category")
+    List<SpecGroupDTO> querySpecsByCid(@RequestParam("id") Long id);
+    @GetMapping("/brand/{id}")
+    public BrandDTO queryBrandById(@PathVariable("id") Long brandId);
 }

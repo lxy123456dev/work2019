@@ -2,6 +2,7 @@ package com.leyou.item.controller;
 
 import com.leyou.DTO.BrandDTO;
 import com.leyou.exception.vo.PageResult;
+import com.leyou.item.mapper.BrandMapper;
 import com.leyou.item.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -45,5 +46,10 @@ public class BrandController {
     public ResponseEntity<List<BrandDTO>> queryBrandListByIds(@RequestParam("ids") List<Long> brandIdList){
         System.out.println(brandService.queryBrandListByIds(brandIdList));
         return ResponseEntity.ok(brandService.queryBrandListByIds(brandIdList));
+    }
+    @GetMapping("/{id}")
+    public ResponseEntity<BrandDTO> queryBrandById(@PathVariable("id") Long brandId){
+        BrandDTO brandDTO = brandService.queryById(brandId);
+        return ResponseEntity.ok(brandDTO);
     }
 }

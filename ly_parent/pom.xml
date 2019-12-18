@@ -15,6 +15,7 @@
         <module>ly_registry</module>
         <module>ly_upload</module>
         <module>ly_search</module>
+        <module>ly_page</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -96,6 +97,10 @@
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-extra</artifactId>
             <version>1.1.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
         </dependency>
     </dependencies>
 

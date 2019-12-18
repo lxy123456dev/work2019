@@ -1519,7 +1519,7 @@ create_time</ColNames>
     </key>
     <column id="355" parent="296" name="id">
       <Position>1</Position>
-      <Comment>订单详情id </Comment>
+      <Comment>订单详情id</Comment>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>

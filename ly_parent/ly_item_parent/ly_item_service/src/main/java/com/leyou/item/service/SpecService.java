@@ -16,6 +16,8 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Service
 
@@ -82,5 +84,15 @@ public class SpecService {
         if (i != 1) {
             throw new LyException(ResponseCode.INSERT_OPERATION_FAIL);
         }
+    }
+
+    public List<SpecGroupDTO> querySpecsByCid(Long id) {
+        List<SpecGroupDTO> groupList = queryGroupByCategory(id);
+        List<SpecParamDTO> params = querySpecParams(null, id, null);
+        Map<Long, List<SpecParamDTO>> collect = params.stream().collect(Collectors.groupingBy(SpecParamDTO::getGroupId));
+        groupList.forEach(specGroupDTO -> {
+            specGroupDTO.setParams(collect.get(specGroupDTO.getId()));
+        });
+        return groupList;
     }
 }

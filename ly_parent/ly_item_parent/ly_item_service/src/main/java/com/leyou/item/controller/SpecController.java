@@ -49,5 +49,9 @@ public class SpecController {
         specService.deleteSpecParam(id);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
+    @GetMapping("/spec/of/category")
+    public ResponseEntity<List<SpecGroupDTO>> querySpecsByCid(@RequestParam("id") Long id){
+        return ResponseEntity.ok(specService.querySpecsByCid(id));
+    }
 
 }
