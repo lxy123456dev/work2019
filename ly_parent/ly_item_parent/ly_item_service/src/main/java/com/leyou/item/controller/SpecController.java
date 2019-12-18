@@ -53,5 +53,4 @@ public class SpecController {
     public ResponseEntity<List<SpecGroupDTO>> querySpecsByCid(@RequestParam("id") Long id){
         return ResponseEntity.ok(specService.querySpecsByCid(id));
     }
-
 }
