@@ -1,6 +1,7 @@
 import com.leyou.utils.ConnectionUtil;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
+import com.rabbitmq.client.MessageProperties;
 
 public class Send {
 
@@ -16,7 +17,7 @@ public class Send {
         // 消息内容
         String message = "Hello World!";
         // 向指定的队列中发送消息
-        channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
+        channel.basicPublish("", QUEUE_NAME, MessageProperties.PERSISTENT_TEXT_PLAIN, message.getBytes());
 
         System.out.println(" [x] Sent '" + message + "'");
 

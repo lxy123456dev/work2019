@@ -71,4 +71,13 @@ public class PageService {
             throw new LyException(ResponseCode.FILE_WRITER_ERROR);
         }
     }
+    public void deleteItemHtml(long id) {
+        File file = new File(itemDir, id + ".html");
+        if(file.exists()){
+            if (!file.delete()) {
+                log.error("【静态页服务】静态页删除失败，商品id：{}", id);
+                throw new LyException(ResponseCode.FILE_WRITER_ERROR);
+            }
+        }
+    }
 }

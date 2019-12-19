@@ -6,6 +6,11 @@ spring:
   data:
     elasticsearch:
       cluster-nodes: 127.0.0.1:9300
+  rabbitmq:
+    host: 10.0.75.2
+    username: guest
+    password: guest
+    virtual-host: /
 eureka:
   client:
     service-url:

@@ -3,6 +3,7 @@ package com.leyou.item.service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.leyou.DTO.*;
+import com.leyou.constants.MQConstants;
 import com.leyou.exception.LyException;
 import com.leyou.exception.enums.ResponseCode;
 import com.leyou.exception.vo.PageResult;
@@ -14,6 +15,7 @@ import com.leyou.item.pojo.Spu;
 import com.leyou.item.pojo.SpuDetail;
 import com.leyou.utils.BeanHelper;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -30,7 +32,7 @@ import java.util.stream.Collectors;
 
 @Service
 @Transactional
-public class GoodsService {
+public class GoodsService{
     @Autowired
     private SpuMapper spuMapper;
     @Autowired
@@ -43,6 +45,8 @@ public class GoodsService {
     private SkuMapper skuMapper;
     @Autowired
     private SpuDetailMapper spuDetailMapper;
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
     public PageResult<SpuDTO> querySpuByPage(Integer page, Integer rows, Boolean saleable, String key) {
         PageHelper.startPage(page, rows);
         Example example = new Example(Spu.class);
@@ -128,6 +132,8 @@ public class GoodsService {
         if (count != size) {
             throw new LyException(ResponseCode.UPDATE_OPERATION_FAIL);
         }
+        String key = saleable ? MQConstants.RoutingKey.ITEM_UP_KEY : MQConstants.RoutingKey.ITEM_DOWN_KEY;
+        rabbitTemplate.convertAndSend(MQConstants.Exchange.ITEM_EXCHANGE_NAME,key, id);
     }
     public SpuDetailDTO querySpuDetailBySpuId(Long spuId) {
         SpuDetail spuDetail = spuDetailMapper.selectByPrimaryKey(spuId);

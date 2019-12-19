@@ -8,6 +8,7 @@ import com.leyou.exception.LyException;
 import com.leyou.exception.enums.ResponseCode;
 import com.leyou.exception.vo.PageResult;
 import com.leyou.pojo.Goods;
+import com.leyou.repository.GoodsIndexRespository;
 import com.leyou.utils.BeanHelper;
 import com.leyou.utils.JsonUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -29,6 +30,8 @@ import java.util.stream.Collectors;
 
 @Service
 public class GoodsIndexService {
+    @Autowired
+    private GoodsIndexRespository goodsIndexRespository;
     @Autowired
     private ItemClient itemClient;
     @Autowired
@@ -231,7 +234,6 @@ public class GoodsIndexService {
     }
 
     private void handlerBrandAgg(Terms aggregation, Map<String, List<?>> mapResult) {
-        /* */
         List<Long> brandIdList = aggregation.getBuckets().stream().map(Terms.Bucket::getKeyAsNumber).map(Number::longValue).collect(Collectors.toList());
         List<BrandDTO> brandDTOList = itemClient.queryBrandListByIds(brandIdList);
         mapResult.put("品牌", brandDTOList);
@@ -245,5 +247,12 @@ public class GoodsIndexService {
         List<CategoryDTO> categoryDTOList = itemClient.queryCategoryListByIds(list);
         mapResult.put("分类", categoryDTOList);
         return list;
+    }
+
+    public void createIndex(Long id) {
+        goodsIndexRespository.save(buildGoods(itemClient.querySpuById(id)));
+    }
+    public void deleteById(Long id) {
+        goodsIndexRespository.deleteById(id);
     }
 }
