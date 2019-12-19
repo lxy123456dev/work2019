@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ly_common" />
-        <module name="ly_gateway" />
         <module name="ly_item_dto" />
-        <module name="ly_item_interface" />
+        <module name="ly_gateway" />
+        <module name="ly_common" />
         <module name="ly_item_service" />
-        <module name="ly_page" />
-        <module name="ly_registry" />
         <module name="ly_search" />
+        <module name="ly_page" />
+        <module name="ly_item_interface" />
         <module name="ly_upload" />
+        <module name="ly_registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

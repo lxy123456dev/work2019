@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 import java.util.Map;
 
-@FeignClient("item-service")
+@FeignClient(value = "item-service",fallback = ItemClientImpl.class)
 public interface ItemClient {
     @GetMapping("/spu/page")
     public PageResult<SpuDTO> querySpuByPage(
@@ -25,8 +25,8 @@ public interface ItemClient {
     public List<SkuDTO> querySkuBySpuId(@RequestParam("id") Long id);
     @GetMapping("/spec/params")
     public List<SpecParamDTO> querySpecParams(@RequestParam(value = "gid",required = false) Long gid,
-                                                              @RequestParam(value = "cid",required = false)Long cid,
-                                                              @RequestParam(value = "searching",required = false) Boolean searching);
+                                              @RequestParam(value = "cid",required = false)Long cid,
+                                              @RequestParam(value = "searching",required = false) Boolean searching);
     @GetMapping("/spu/detail")
     public SpuDetailDTO querySpuDetailBySpuId(@RequestParam("id") Long spuId);
 
