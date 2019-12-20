@@ -16,6 +16,8 @@
         <module>ly_upload</module>
         <module>ly_search</module>
         <module>ly_page</module>
+        <module>ly_user_parent</module>
+        <module>ly_user_parent/ly_user_dto</module>
     </modules>
     <packaging>pom</packaging>
 

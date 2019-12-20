@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly_common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly_common/src/main/java" charset="UTF-8" />
@@ -21,6 +21,10 @@
     <file url="file://$PROJECT_DIR$/ly_search/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly_upload" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ly_upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly_user_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly_user_parent/ly_user_dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly_user_parent/ly_user_dto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly_user_parent/ly_user_interface" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

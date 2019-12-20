@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258ee2ec-389e-4b3f-a3ec-975ad08503b2" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_dto/ly_user_dto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_dto/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_user_parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a25e062-57ac-4206-9e9c-78af0ec86521.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5a25e062-57ac-4206-9e9c-78af0ec86521.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_upload/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/../../leyou-manage-web/node_modules/" />
-    <ignored path="$PROJECT_DIR$/../../leyou-portal/node_modules/" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/ly_item_parent/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/ly_item_parent/ly_item_dto/target/" />
-    <ignored path="$PROJECT_DIR$/ly_common/target/" />
-    <ignored path="$PROJECT_DIR$/ly_item_parent/ly_item_service/target/" />
-    <ignored path="$PROJECT_DIR$/ly_page/target/" />
-    <ignored path="$PROJECT_DIR$/ly_gateway/target/" />
-    <ignored path="$PROJECT_DIR$/ly_search/target/" />
-    <ignored path="$PROJECT_DIR$/ly_item_parent/ly_item_interface/target/" />
-    <ignored path="$PROJECT_DIR$/ly_upload/target/" />
-    <ignored path="$PROJECT_DIR$/ly_registry/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,15 +55,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ly_parent" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../leyou-portal/package.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,38 +98,14 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="926" />
+    <option name="x" value="925" />
     <option name="y" value="125" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
   </component>
   <component name="ProjectId" id="1UbrlPBNxDqxwqoBXqjfvxgrkkj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="添加" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou-portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou_swagger_API" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -153,18 +114,21 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576748044317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576828657430" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly_search/src/main/java/com" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../leyou_swagger_API" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -177,21 +141,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\ly_parent\ly_item_parent\ly_item_service\src\test\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\work2019\ly_parent\ly_item_parent\ly_item_interface\src\main\java\com" />
+      <recent name="D:\workspace\work2019\ly_parent\ly_page\src\main\resources\templates" />
+      <recent name="D:\workspace\leyou-portal" />
+      <recent name="D:\workspace\ly_parent\ly_item_parent\ly_item_interface\src\main\java\com\leyou" />
+      <recent name="D:\workspace\ly_parent\ly_gateway\src\main\java\com\leyou" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.leyou.DTO" />
       <recent name="com.leyou.item.mapper" />
       <recent name="com.leyou.item.service" />
       <recent name="com.leyou.exception.vo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\work2019\ly_parent\ly_page\src\main\resources\templates" />
-      <recent name="D:\workspace\leyou-portal" />
-      <recent name="D:\workspace\ly_parent\ly_item_parent\ly_item_interface\src\main\java\com\leyou" />
-      <recent name="D:\workspace\ly_parent\ly_gateway\src\main\java\com\leyou" />
-      <recent name="D:\workspace\ly_parent\ly_common\src\main\java\com\leyou" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\ly_parent\ly_item_parent\ly_item_service\src\test\java" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -221,16 +185,6 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="nginx server.nginx">
     <configuration name="Recv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -253,21 +207,6 @@
       <option name="MAIN_CLASS_NAME" value="PageServiceTest" />
       <option name="METHOD_NAME" value="createItemHtml" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFeign" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly_search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leyou.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.leyou" />
-      <option name="MAIN_CLASS_NAME" value="com.leyou.TestFeign" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -356,6 +295,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="API" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/../../leyou_swagger_API/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="API" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="portal" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/../../leyou-portal/package.json" />
       <command value="run" />
@@ -387,11 +336,11 @@
     <list>
       <item itemvalue="Application.Send" />
       <item itemvalue="Application.Recv" />
-      <item itemvalue="JUnit.TestFeign" />
       <item itemvalue="JUnit.PageServiceTest.createItemHtml" />
       <item itemvalue="nginx server.nginx" />
       <item itemvalue="npm.serve" />
       <item itemvalue="npm.portal" />
+      <item itemvalue="npm.API" />
       <item itemvalue="Spring Boot.LyPageApplication" />
       <item itemvalue="Spring Boot.LyUploadApplication" />
       <item itemvalue="Spring Boot.LyGatewayApplication" />
@@ -406,7 +355,6 @@
         <item itemvalue="JUnit.PageServiceTest.createItemHtml" />
         <item itemvalue="Application.Recv" />
         <item itemvalue="Application.Send" />
-        <item itemvalue="JUnit.TestFeign" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +447,17 @@
       <workItem from="1576720598956" duration="6314000" />
       <workItem from="1576736829208" duration="3175000" />
       <workItem from="1576741591306" duration="50000" />
-      <workItem from="1576747453655" duration="590000" />
+      <workItem from="1576747453655" duration="1703000" />
+      <workItem from="1576749735353" duration="75000" />
+      <workItem from="1576749931282" duration="88000" />
+      <workItem from="1576751696242" duration="683000" />
+      <workItem from="1576762382356" duration="56000" />
+      <workItem from="1576762596221" duration="230000" />
+      <workItem from="1576817308358" duration="281000" />
+      <workItem from="1576819781729" duration="43000" />
+      <workItem from="1576819841143" duration="157000" />
+      <workItem from="1576820606288" duration="43000" />
+      <workItem from="1576825550242" duration="1365000" />
     </task>
     <task id="LOCAL-00001" summary="jfyjhfj">
       <created>1576331937674</created>
@@ -637,88 +595,12 @@
     <option name="localTasksCounter" value="20" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestFeign - 2019.12.15 at 12h 00m 16s.xml">
-      <configuration name="TestFeign" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFeign_test - 2019.12.15 at 12h 02m 35s.xml">
-      <configuration name="TestFeign.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFeign - 2019.12.15 at 14h 33m 15s.xml">
-      <configuration name="TestFeign" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFeign - 2019.12.16 at 11h 01m 19s.xml">
-      <configuration name="TestFeign" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFeign - 2019.12.16 at 11h 15m 59s.xml">
-      <configuration name="TestFeign" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFeign - 2019.12.16 at 11h 23m 28s.xml">
-      <configuration name="TestFeign" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFeign - 2019.12.16 at 11h 40m 21s.xml">
-      <configuration name="TestFeign" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PageServiceTest_createItemHtml - 2019.12.18 at 11h 31m 19s.xml">
-      <configuration name="PageServiceTest.createItemHtml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PageServiceTest_createItemHtml - 2019.12.18 at 11h 32m 38s.xml">
-      <configuration name="PageServiceTest.createItemHtml" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PageServiceTest_createItemHtml - 2019.12.19 at 11h 11m 39s.xml">
-      <configuration name="PageServiceTest.createItemHtml" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="590000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="741" y="100" width="1552" height="848" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="设计器" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966262" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3299712" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run Dashboard" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="调色板" />
-      <window_info anchor="right" id="Mybatis datasource" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="jfyjhfj" />
     <MESSAGE value="feign接口" />
     <MESSAGE value="ddwdwd" />
@@ -728,9 +610,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="drrd" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="60" width="1293" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576741621938" />
+    <state x="223" y="60" width="1293" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576762778452">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
     <state x="223" y="60" width="1293" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1576741621938" />
-    <state x="223" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1576741621938" />
+    <state x="223" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1576762778452" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576741625046">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -760,32 +644,27 @@
     <state width="1200" height="204" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1576741621938" />
     <state width="1200" height="204" key="GridCell.Tab.1.right" timestamp="1576741621938" />
     <state width="1200" height="204" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1576741621938" />
-    <state x="314" y="0" key="SettingsEditor" timestamp="1576741621938" />
+    <state width="238" height="549" key="HiddenNamespacesPopup" timestamp="1576762797894">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="238" height="549" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1576762797894" />
+    <state x="314" y="0" key="SettingsEditor" timestamp="1576762437405">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
     <state x="157" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576741621938" />
-    <state x="314" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1576741621938" />
+    <state x="314" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1576762437405" />
     <state x="406" y="0" width="735" height="824" key="find.popup" timestamp="1576741621938" />
     <state x="406" y="0" width="735" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1576741621938" />
+    <state x="15" y="58" key="new project wizard" timestamp="1576827986878">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="15" y="58" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1576827986878" />
     <state x="342" y="0" width="838" height="822" key="search.everywhere.popup" timestamp="1576741621938" />
     <state x="342" y="0" width="838" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576741621938" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../leyou_swagger_API/gathering.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../leyou-portal/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../leyou-portal/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
