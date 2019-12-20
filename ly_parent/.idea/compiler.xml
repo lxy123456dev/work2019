@@ -17,6 +17,7 @@
         <module name="ly_upload" />
         <module name="ly_user_dto" />
         <module name="ly_user_interface" />
+        <module name="ly_user_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +39,7 @@
       <module name="ly_user_dto" options="-parameters" />
       <module name="ly_user_interface" options="-parameters" />
       <module name="ly_user_parent" options="-parameters" />
+      <module name="ly_user_service" options="-parameters" />
       <module name="lysearch" options="-parameters" />
       <module name="lyupload" options="-parameters" />
     </option>
