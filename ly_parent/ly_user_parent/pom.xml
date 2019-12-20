@@ -11,6 +11,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>ly_user_interface</module>
+        <module>ly_user_dto</module>
         <module>ly_user_service</module>
     </modules>
     <artifactId>ly_user_parent</artifactId>
