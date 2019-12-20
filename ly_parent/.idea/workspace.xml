@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258ee2ec-389e-4b3f-a3ec-975ad08503b2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/ly_sms/ly_sms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_sms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/LySmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/mq/SmsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/utils/SmsHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_sms/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ly_sms/src/test/java/SmsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/constants/MQConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/constants/MQConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_user_parent/ly_user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../../leyou-manage-web/node_modules/" />
     <ignored path="$PROJECT_DIR$/../../leyou-portal/node_modules/" />
@@ -84,103 +67,7 @@
     <favorites_list name="ly_parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="59" column="70" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/mq/SmsListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/LySmsApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="das://5a25e062-57ac-4206-9e9c-78af0ec86521/schema/leyou/table/tb_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/LyUserApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="18" column="12" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -265,8 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -501,6 +386,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -520,7 +407,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576849527997" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576849579420" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly_search/src/main/java/com" />
@@ -911,6 +798,7 @@
       <workItem from="1576825550242" duration="1365000" />
       <workItem from="1576828523593" duration="3771000" />
       <workItem from="1576837332893" duration="7699000" />
+      <workItem from="1576849435142" duration="201000" />
     </task>
     <task id="LOCAL-00001" summary="jfyjhfj">
       <created>1576331937674</created>
@@ -1080,7 +968,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576834617062</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="20191220">
+      <created>1576849552015</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1576849552015</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1089,13 +984,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11470000" />
+    <option name="totallyTimeSpent" value="11671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27837837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28310812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1121,7 +1015,7 @@
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" />
       <window_info anchor="bottom" id="调试" order="17" />
-      <window_info anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.38184437" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" weight="0.38184437" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1130,7 +1024,7 @@
       <window_info anchor="right" id="调色板" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
       <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
-      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.20945945" />
+      <window_info anchor="right" id="Database" order="8" weight="0.20945945" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" weight="0.32972974" />
@@ -1288,9 +1182,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/utils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/utils.java" />
     <entry file="file://$PROJECT_DIR$/ly_sms/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -1298,9 +1190,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/mq.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/mq.java" />
     <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1346,16 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/constants/MQConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1380,16 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="59" column="70" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/utils/SmsHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1034">
@@ -1400,21 +1270,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/LyUserApplication.java">
+    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="12" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="880">
+          <caret line="59" column="70" selection-start-line="59" selection-start-column="55" selection-end-line="59" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/mq/SmsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="132">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1424,7 +1302,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
+        <state relative-caret-position="242">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1432,20 +1310,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/mq/SmsListener.java">
+    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/LyUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+        <state relative-caret-position="396">
+          <caret line="18" column="12" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/LySmsApplication.java">
+    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="902">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1456,6 +1336,16 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/LySmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1511,12 +1401,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ly_item_interface</last-edited>
+          <last-edited>ly_common</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.38467944" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
