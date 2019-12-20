@@ -14,6 +14,7 @@
         <module name="ly_page" />
         <module name="ly_registry" />
         <module name="ly_search" />
+        <module name="ly_sms" />
         <module name="ly_upload" />
         <module name="ly_user_dto" />
         <module name="ly_user_interface" />
@@ -35,6 +36,7 @@
       <module name="ly_page" options="-parameters" />
       <module name="ly_registry" options="-parameters" />
       <module name="ly_search" options="-parameters" />
+      <module name="ly_sms" options="-parameters" />
       <module name="ly_upload" options="-parameters" />
       <module name="ly_user_dto" options="-parameters" />
       <module name="ly_user_interface" options="-parameters" />

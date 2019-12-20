@@ -18,6 +18,7 @@
         <module>ly_page</module>
         <module>ly_user_parent</module>
         <module>ly_user_parent/ly_user_dto</module>
+        <module>ly_sms</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -107,6 +108,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
     </dependencies>
 

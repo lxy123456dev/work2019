@@ -19,6 +19,9 @@ zuul:
     search-service:
       path: /search/**
       serviceId: search-service
+    user-service:
+      path: /user/**
+      serviceId: user-service
 ly:
   cors:
     allowedOrigins:
