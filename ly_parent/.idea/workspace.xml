@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258ee2ec-389e-4b3f-a3ec-975ad08503b2" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_sms/ly_sms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_sms/ly_sms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_user_parent/ly_user_interface/ly_user_interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_interface/ly_user_interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_user_parent/ly_user_service/ly_user_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_service/ly_user_service.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../../leyou-manage-web/node_modules/" />
     <ignored path="$PROJECT_DIR$/../../leyou-portal/node_modules/" />
@@ -67,7 +70,7 @@
     <favorites_list name="ly_parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,6 +155,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -386,8 +391,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -421,7 +424,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38467944" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -799,6 +802,7 @@
       <workItem from="1576828523593" duration="3771000" />
       <workItem from="1576837332893" duration="7699000" />
       <workItem from="1576849435142" duration="201000" />
+      <workItem from="1576902764997" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="jfyjhfj">
       <created>1576331937674</created>
@@ -984,12 +988,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11671000" />
+    <option name="totallyTimeSpent" value="11936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28310812" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28783783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
