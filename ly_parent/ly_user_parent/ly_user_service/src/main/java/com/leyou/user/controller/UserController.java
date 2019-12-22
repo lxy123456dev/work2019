@@ -1,5 +1,6 @@
 package com.leyou.user.controller;
 
+import com.leyou.user.UserDTO;
 import com.leyou.user.pojo.User;
 import com.leyou.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -47,4 +48,11 @@ public class UserController {
         userService.register(user, code);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
+
+    @GetMapping("query")
+    public ResponseEntity<UserDTO> queryUserByUsernameAndPassword(
+            @RequestParam("username") String username, @RequestParam("password") String password) {
+        return ResponseEntity.ok(userService.queryUserByUsernameAndPassword(username, password));
+    }
+
 }

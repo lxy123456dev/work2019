@@ -22,6 +22,10 @@ zuul:
     user-service:
       path: /user/**
       serviceId: user-service
+    auth-service:
+      path: /auth/**
+      serviceId: auth-service
+  sensitive-headers:
 ly:
   cors:
     allowedOrigins:

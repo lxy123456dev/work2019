@@ -2,8 +2,10 @@ package com.leyou.user.service;
 
 import com.leyou.exception.LyException;
 import com.leyou.exception.enums.ResponseCode;
+import com.leyou.user.UserDTO;
 import com.leyou.user.mapper.UserMapper;
 import com.leyou.user.pojo.User;
+import com.leyou.utils.BeanHelper;
 import com.leyou.utils.RegexUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -71,5 +73,20 @@ public class UserService {
         } else {
             throw new LyException(ResponseCode.INVALID_PARAM_ERROR);
         }
+    }
+
+    public UserDTO queryUserByUsernameAndPassword(String username, String password) {
+        //根据用户名查询用户信息--判断用户名是否正确
+        User user = new User();
+        user.setUsername(username);
+        user = userMapper.selectOne(user);
+        if (user == null) {
+            throw new LyException(ResponseCode.INVALID_USERNAME_PASSWORD);
+        }
+        //校验密码是否正确  matches方法参数1：用户填写密码  参数二：加密后正确密码
+        if (!passwordEncoder.matches(password, user.getPassword())) {
+            throw new LyException(ResponseCode.INVALID_USERNAME_PASSWORD);
+        }
+        return BeanHelper.copyProperties(user, UserDTO.class);
     }
 }
