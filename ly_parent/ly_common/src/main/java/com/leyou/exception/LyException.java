@@ -15,4 +15,9 @@ public class LyException extends RuntimeException {
         super(responseCode.getMessage(), cause);
         this.status = responseCode.getStatus();
     }
+
+    public LyException(int i, String msg) {
+        super(msg);
+        status = i;
+    }
 }

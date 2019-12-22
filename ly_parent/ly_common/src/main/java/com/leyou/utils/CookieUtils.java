@@ -41,12 +41,12 @@ public final class CookieUtils {
         }
         String retValue = null;
         try {
-            for (int i = 0; i < cookieList.length; i++) {
-                if (cookieList[i].getName().equals(cookieName)) {
+            for (Cookie cookie : cookieList) {
+                if (cookie.getName().equals(cookieName)) {
                     if (charset != null && charset.length() > 0) {
-                        retValue = URLDecoder.decode(cookieList[i].getValue(), charset);
+                        retValue = URLDecoder.decode(cookie.getValue(), charset);
                     } else {
-                        retValue = cookieList[i].getValue();
+                        retValue = cookie.getValue();
                     }
                     break;
                 }
