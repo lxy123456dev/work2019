@@ -9,9 +9,6 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Configuration
 public class CorsFilterConfig {
 
@@ -23,10 +20,10 @@ public class CorsFilterConfig {
         //配置Cors规则： 在响应头中增加允许跨域规则
         CorsConfiguration configuration = new CorsConfiguration();
         //1、设置允许哪些域名访问
-        prop.getAllowedOrigins().stream().forEach(configuration::addAllowedOrigin);
+        prop.getAllowedOrigins().forEach(configuration::addAllowedOrigin);
 
         //2、设置允许哪些HTTP请求类型访问
-        prop.getAllowedMethods().stream().forEach(configuration::addAllowedMethod);
+        prop.getAllowedMethods().forEach(configuration::addAllowedMethod);
 //        configuration.addAllowedMethod("GET");
 //        configuration.addAllowedMethod("POST");
 //        configuration.addAllowedMethod("DELETE");
@@ -35,7 +32,7 @@ public class CorsFilterConfig {
 
         //3、设置允许哪些请求头访问
 //        configuration.addAllowedHeader("*");
-        prop.getAllowedHeaders().stream().forEach(configuration::addAllowedHeader);
+        prop.getAllowedHeaders().forEach(configuration::addAllowedHeader);
 
         //4、设置预检请求有效期  Options请求检查服务器是否允许访问
         configuration.setMaxAge(prop.getMaxAge());
@@ -47,8 +44,7 @@ public class CorsFilterConfig {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         //设置过滤器拦截请求路径
         source.registerCorsConfiguration(prop.getFilterPath(), configuration);
-        CorsFilter corsFilter = new CorsFilter(source);
-        return  corsFilter;
+        return new CorsFilter(source);
     }
 
 }

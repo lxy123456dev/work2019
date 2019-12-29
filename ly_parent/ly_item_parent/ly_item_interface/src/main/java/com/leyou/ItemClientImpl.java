@@ -50,4 +50,9 @@ public class ItemClientImpl implements ItemClient{
     public BrandDTO queryBrandById(Long brandId) {
         return null;
     }
+
+    @Override
+    public List<SkuDTO> querySkuByIds(List<Long> ids) {
+        return null;
+    }
 }

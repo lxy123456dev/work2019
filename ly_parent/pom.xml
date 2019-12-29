@@ -20,6 +20,7 @@
         <module>ly_user_parent/ly_user_dto</module>
         <module>ly_sms</module>
         <module>ly_auth</module>
+        <module>ly_cart</module>
     </modules>
     <packaging>pom</packaging>
 

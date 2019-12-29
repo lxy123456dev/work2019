@@ -14,7 +14,7 @@ import java.util.Map;
 @FeignClient(value = "item-service",fallback = ItemClientImpl.class)
 public interface ItemClient {
     @GetMapping("/spu/page")
-    public PageResult<SpuDTO> querySpuByPage(
+    PageResult<SpuDTO> querySpuByPage(
             @RequestParam(value = "page", defaultValue = "1") Integer page,
             @RequestParam(value = "rows", defaultValue = "5") Integer rows,
             @RequestParam(value = "saleable", required = false) Boolean saleable,
@@ -22,18 +22,18 @@ public interface ItemClient {
 
     );
     @GetMapping("sku/of/spu")
-    public List<SkuDTO> querySkuBySpuId(@RequestParam("id") Long id);
+    List<SkuDTO> querySkuBySpuId(@RequestParam("id") Long id);
     @GetMapping("/spec/params")
-    public List<SpecParamDTO> querySpecParams(@RequestParam(value = "gid",required = false) Long gid,
-                                              @RequestParam(value = "cid",required = false)Long cid,
-                                              @RequestParam(value = "searching",required = false) Boolean searching);
+    List<SpecParamDTO> querySpecParams(@RequestParam(value = "gid", required = false) Long gid,
+                                       @RequestParam(value = "cid", required = false) Long cid,
+                                       @RequestParam(value = "searching", required = false) Boolean searching);
     @GetMapping("/spu/detail")
-    public SpuDetailDTO querySpuDetailBySpuId(@RequestParam("id") Long spuId);
+    SpuDetailDTO querySpuDetailBySpuId(@RequestParam("id") Long spuId);
 
     @GetMapping("/category/list")
-    public List<CategoryDTO> queryCategoryListByIds(@RequestParam("ids") List<Long> categoryIds);
+    List<CategoryDTO> queryCategoryListByIds(@RequestParam("ids") List<Long> categoryIds);
     @GetMapping("/brand/list")
-    public List<BrandDTO> queryBrandListByIds(@RequestParam("ids") List<Long> brandIdList);
+    List<BrandDTO> queryBrandListByIds(@RequestParam("ids") List<Long> brandIdList);
     /**
      * 根据spu的id查询spu
      * @param id
@@ -44,5 +44,8 @@ public interface ItemClient {
     @GetMapping("/spec/of/category")
     List<SpecGroupDTO> querySpecsByCid(@RequestParam("id") Long id);
     @GetMapping("/brand/{id}")
-    public BrandDTO queryBrandById(@PathVariable("id") Long brandId);
+    BrandDTO queryBrandById(@PathVariable("id") Long brandId);
+
+    @GetMapping("sku/list")
+    List<SkuDTO> querySkuByIds(@RequestParam("ids") List<Long> ids);
 }

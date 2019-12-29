@@ -217,4 +217,13 @@ public class GoodsService{
         }
         return spuDTO;
     }
+
+    public List<SkuDTO> querySkuListByIds(List<Long> ids) {
+        // 查询sku
+        List<Sku> skuList = skuMapper.selectByIdList(ids);
+        if (CollectionUtils.isEmpty(skuList)) {
+            throw new LyException(ResponseCode.GOODS_NOT_FOUND);
+        }
+        return BeanHelper.copyWithCollection(skuList, SkuDTO.class);
+    }
 }

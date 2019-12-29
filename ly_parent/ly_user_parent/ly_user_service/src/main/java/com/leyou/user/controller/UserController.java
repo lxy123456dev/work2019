@@ -1,7 +1,6 @@
 package com.leyou.user.controller;
 
 import com.leyou.exception.LyException;
-import com.leyou.exception.enums.ResponseCode;
 import com.leyou.user.UserDTO;
 import com.leyou.user.pojo.User;
 import com.leyou.user.service.UserService;
@@ -55,7 +54,7 @@ public class UserController {
         if (result.hasErrors()) {
             String msg = result.getFieldErrors().stream().map(FieldError::getDefaultMessage)
                     .collect(Collectors.joining("|"));
-            throw new LyException(500, msg);
+            throw new LyException(400, msg);
         }
         userService.register(user, code);
         return ResponseEntity.status(HttpStatus.CREATED).build();

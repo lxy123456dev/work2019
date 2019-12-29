@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ly_auth" />
+        <module name="ly_cart" />
         <module name="ly_common" />
         <module name="ly_gateway" />
         <module name="ly_item_dto" />
@@ -31,6 +32,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ly_auth" options="-parameters" />
+      <module name="ly_cart" options="-parameters" />
       <module name="ly_common" options="-parameters" />
       <module name="ly_gateway" options="-parameters" />
       <module name="ly_item_dto" options="-parameters" />

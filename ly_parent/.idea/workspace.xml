@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258ee2ec-389e-4b3f-a3ec-975ad08503b2" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/ly_cart/ly_cart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_cart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/LyCartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/interceptors/UserInterceptors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_cart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/threadlocals/UserHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/gateway/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/properties/AllowFilterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/properties/JwtProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/exception/LyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/exception/LyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/CookieUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/gateway/config/CorsFilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/gateway/config/CorsFilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ly_gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/SkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/SkuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../../leyou-manage-web/node_modules/" />
     <ignored path="$PROJECT_DIR$/../../leyou-portal/node_modules/" />
@@ -29,6 +55,7 @@
     <ignored path="$PROJECT_DIR$/ly_user_parent/ly_user_service/target/" />
     <ignored path="$PROJECT_DIR$/ly_sms/target/" />
     <ignored path="$PROJECT_DIR$/ly_auth/target/" />
+    <ignored path="$PROJECT_DIR$/ly_cart/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,41 +107,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_auth/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/service/AuthService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/pojo/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/service/CartService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-220">
-              <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="104">
+              <caret line="102" column="36" lean-forward="true" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,52 +120,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/exception/LyException.java">
+        <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/threadlocals/UserHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/exception/enums/ResponseCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+            <state relative-caret-position="189">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_dto/src/main/java/com/leyou/user/UserDTO.java">
+        <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/SkuMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="108">
+              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/controller/CartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+            <state relative-caret-position="520">
+              <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,8 +160,8 @@
       <list>
         <option value="mapper" />
         <option value="Enum" />
-        <option value="Singleton" />
         <option value="Interface" />
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
@@ -200,20 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ly_user_parent/pom.xml" />
-        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/config/sss.java" />
-        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/config/BcryptConfig.java" />
-        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/LyUserApplication.java" />
-        <option value="$PROJECT_DIR$/ly_sms/pom.xml" />
-        <option value="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsProperties.java" />
-        <option value="$PROJECT_DIR$/ly_sms/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsConfiguration.java" />
-        <option value="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/utils/SmsHelper.java" />
-        <option value="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/constants/MQConstants.java" />
-        <option value="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/mq/SmsListener.java" />
-        <option value="$PROJECT_DIR$/ly_sms/src/test/java/SmsTest.java" />
-        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/LySmsApplication.java" />
@@ -223,24 +189,48 @@
         <option value="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/auth/entity/UserInfo.java" />
         <option value="$PROJECT_DIR$/ly_common/pom.xml" />
         <option value="$PROJECT_DIR$/ly_common/src/test/java/AuthTest.java" />
-        <option value="$PROJECT_DIR$/ly_auth/pom.xml" />
         <option value="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/dwdwd.java" />
         <option value="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/JwtProperties.java" />
         <option value="$PROJECT_DIR$/ly_user_parent/ly_user_interface/src/main/java/UserClient.java" />
         <option value="$PROJECT_DIR$/ly_user_parent/ly_user_interface/pom.xml" />
         <option value="$PROJECT_DIR$/ly_user_parent/ly_user_dto/src/main/java/UserDTO.java" />
         <option value="$PROJECT_DIR$/ly_user_parent/ly_user_dto/src/main/java/com/leyou/user/UserDTO.java" />
-        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/ly_gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/service/AuthService.java" />
         <option value="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/CookieUtils.java" />
         <option value="$PROJECT_DIR$/ly_auth/src/main/resources/META-INF/additional-spring-configuration-metadata.json" />
-        <option value="$PROJECT_DIR$/ly_auth/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/config/JwtProperties.java" />
         <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/pojo/User.java" />
-        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/exception/LyException.java" />
+        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/config/BcryptConfig.java" />
+        <option value="$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/ly_auth/pom.xml" />
+        <option value="$PROJECT_DIR$/ly_auth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ly_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/properties/FilterProperties.java" />
+        <option value="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/properties/AllowFilterProperties.java" />
+        <option value="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/gateway/filter/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/ly_cart/pom.xml" />
+        <option value="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/LycartApplication.java" />
+        <option value="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/LyCartApplication.java" />
+        <option value="$PROJECT_DIR$/ly_cart/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ly_gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/threadlocals/UserHolder.java" />
+        <option value="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/interceptors/UserInterceptors.java" />
+        <option value="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/entity.java" />
+        <option value="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/entity/Cart.java" />
+        <option value="$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/properties/JwtProperties.java" />
+        <option value="$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/gateway/config/CorsFilterConfig.java" />
+        <option value="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/SkuMapper.java" />
+        <option value="$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java" />
+        <option value="$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClientImpl.java" />
+        <option value="$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/JwtUtils.java" />
+        <option value="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/service/CartService.java" />
       </list>
     </option>
   </component>
@@ -276,10 +266,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-122" />
-    <option name="y" value="82" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="x" value="256" />
+    <option name="y" value="182" />
+    <option name="width" value="1374" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectId" id="1UbrlPBNxDqxwqoBXqjfvxgrkkj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -290,8 +280,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,25 +292,25 @@
             <path>
               <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_cart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_cart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_cart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_cart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -328,7 +318,7 @@
             <path>
               <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_cart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -337,7 +327,52 @@
             <path>
               <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_cart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -347,307 +382,10 @@
             <path>
               <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ly_search" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ly_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ly_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="ly_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -672,7 +410,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576995501285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577616322468" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ly_search/src/main/java/com" />
@@ -682,7 +420,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38467944" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -690,20 +428,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.leyou.cart.service" />
       <recent name="com.leyou.auth.service" />
       <recent name="com.leyou.DTO" />
       <recent name="com.leyou.item.mapper" />
       <recent name="com.leyou.item.service" />
-      <recent name="com.leyou.exception.vo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\leyou-portal" />
       <recent name="D:\workspace\work2019\ly_parent\ly_user_parent\ly_user_dto\src\main\java" />
       <recent name="D:\workspace\work2019\ly_parent\ly_item_parent\ly_item_interface\src\main\java\com" />
       <recent name="D:\workspace\work2019\ly_parent\ly_page\src\main\resources\templates" />
-      <recent name="D:\workspace\leyou-portal" />
       <recent name="D:\workspace\ly_parent\ly_item_parent\ly_item_interface\src\main\java\com\leyou" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\work2019\ly_parent\ly_user_parent\ly_user_service\src\main\resources" />
       <recent name="D:\workspace\ly_parent\ly_item_parent\ly_item_service\src\test\java" />
     </key>
   </component>
@@ -746,14 +485,7 @@
     </option>
     <option name="contentProportion" value="0.2132964" />
   </component>
-  <component name="RunManager" selected="npm.portal">
-    <configuration name="Recv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recv" />
-      <module name="ly_common" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.LyCartApplication">
     <configuration name="AuthTest.testJWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ly_common" />
       <option name="PACKAGE_NAME" value="" />
@@ -764,76 +496,135 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthTest.testRSA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly_common" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AuthTest" />
-      <option name="METHOD_NAME" value="testRSA" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PageServiceTest.createItemHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly_page" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PageServiceTest" />
-      <option name="METHOD_NAME" value="createItemHtml" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmsTest.testSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ly_sms" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SmsTest" />
-      <option name="METHOD_NAME" value="testSendMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ly_item_interface" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ItemClientApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LyAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="权限" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly_auth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyAuthApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LyGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ly_gateway" />
+    <configuration name="LyCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ly_cart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leyou.controller.*" />
+          <option name="PATTERN" value="com.leyou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyGatewayApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyCartApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LyPageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="LyPageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ly_page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyPageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_registry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyRegistryApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LySearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ly_search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LySearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ly_item_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LyUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_user_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.user.LyUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="搜索" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LySearchApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="商品" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_item_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="短信" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LySmsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="图片上传" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyUploadApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="用户" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_user_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.user.LyUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="静态页" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly_page" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyPageApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -843,7 +634,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LyRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="注册中心" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly_registry" />
       <extension name="coverage">
         <pattern>
@@ -859,7 +650,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LySearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="搜索" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly_search" />
       <extension name="coverage">
         <pattern>
@@ -875,7 +666,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="商品" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly_item_service" />
       <extension name="coverage">
         <pattern>
@@ -891,14 +682,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LySmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="短信验证码" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly_sms" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LySmsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LyUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="图片上传" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly_upload" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyUploadApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -908,9 +700,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LyUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="用户" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ly_user_service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.user.LyUserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="静态页" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_page" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyPageApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="注册中心" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyRegistryApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="//TODO" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_item_interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ItemClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zuul网关" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ly_gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LyGatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -954,33 +795,24 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Recv" />
-      <item itemvalue="JUnit.PageServiceTest.createItemHtml" />
-      <item itemvalue="JUnit.SmsTest.testSendMessage" />
-      <item itemvalue="JUnit.AuthTest.testRSA" />
       <item itemvalue="JUnit.AuthTest.testJWT" />
       <item itemvalue="nginx server.nginx" />
       <item itemvalue="npm.serve" />
       <item itemvalue="npm.portal" />
       <item itemvalue="npm.API" />
-      <item itemvalue="Spring Boot.LyPageApplication" />
-      <item itemvalue="Spring Boot.LyUploadApplication" />
-      <item itemvalue="Spring Boot.LyGatewayApplication" />
+      <item itemvalue="Spring Boot.zuul网关" />
+      <item itemvalue="Spring Boot.//TODO" />
+      <item itemvalue="Spring Boot.权限" />
+      <item itemvalue="Spring Boot.LyUserApplication" />
       <item itemvalue="Spring Boot.LyRegistryApplication" />
       <item itemvalue="Spring Boot.LyServiceApplication" />
+      <item itemvalue="Spring Boot.LyPageApplication" />
       <item itemvalue="Spring Boot.LySearchApplication" />
-      <item itemvalue="Spring Boot.ItemClientApplication" />
-      <item itemvalue="Spring Boot.LyUserApplication" />
-      <item itemvalue="Spring Boot.LySmsApplication" />
-      <item itemvalue="Spring Boot.LyAuthApplication" />
+      <item itemvalue="Spring Boot.LyCartApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AuthTest.testJWT" />
-        <item itemvalue="JUnit.AuthTest.testRSA" />
-        <item itemvalue="JUnit.SmsTest.testSendMessage" />
-        <item itemvalue="Spring Boot.ItemClientApplication" />
-        <item itemvalue="JUnit.PageServiceTest.createItemHtml" />
+        <item itemvalue="Spring Boot.LyRegistryApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1096,7 +928,19 @@
       <workItem from="1576927227099" duration="5996000" />
       <workItem from="1576935949450" duration="2095000" />
       <workItem from="1576982611153" duration="3800000" />
-      <workItem from="1576993057423" duration="2538000" />
+      <workItem from="1576993057423" duration="13187000" />
+      <workItem from="1577095898844" duration="2502000" />
+      <workItem from="1577188055744" duration="2733000" />
+      <workItem from="1577192798273" duration="312000" />
+      <workItem from="1577235231970" duration="1258000" />
+      <workItem from="1577339347847" duration="9215000" />
+      <workItem from="1577365104078" duration="701000" />
+      <workItem from="1577438105843" duration="770000" />
+      <workItem from="1577448611903" duration="755000" />
+      <workItem from="1577545692875" duration="253000" />
+      <workItem from="1577546555442" duration="27000" />
+      <workItem from="1577546589233" duration="606000" />
+      <workItem from="1577613429144" duration="2874000" />
     </task>
     <task id="LOCAL-00001" summary="jfyjhfj">
       <created>1576331937674</created>
@@ -1287,7 +1131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576984940516</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="20191220">
+      <created>1576995609745</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1576995609745</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1302,7 +1153,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30394000" />
+    <option name="totallyTimeSpent" value="63049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1315,9 +1166,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23229614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23497854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -1331,7 +1181,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.36888888" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.36859688" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" />
@@ -1343,7 +1193,7 @@
       <window_info anchor="bottom" id="Database Changes" order="15" weight="0.32962137" />
       <window_info anchor="bottom" id="Version Control" order="16" />
       <window_info anchor="bottom" id="调试" order="17" />
-      <window_info anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.49946353" weight="0.31666666" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.49946353" visible="true" weight="0.44209355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1352,7 +1202,7 @@
       <window_info anchor="right" id="调色板" order="5" />
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
       <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
-      <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.20922747" />
+      <window_info anchor="right" id="Database" order="8" weight="0.29953918" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" weight="0.32972974" />
@@ -1473,183 +1323,179 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/mq/SmsListener.java">
+    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/exception/LyException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="486">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/LyUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="12" selection-start-line="17" selection-start-column="3" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/LySmsApplication.java">
+    <entry file="file://$PROJECT_DIR$/ly_page/src/main/java/com/leyou/controller/PageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Software/elasticsearch-6.2.4/bin/elasticsearch.bat">
+    <entry file="file://$PROJECT_DIR$/ly_search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="41" column="12" selection-start-line="40" selection-start-column="7" selection-end-line="44" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_cart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/entity.java" />
+    <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/comtroller.java" />
+    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../leyou-portal/cart.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_search/.editorconfig" />
-    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/constants/MQConstants.java">
+    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" column="73" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5a25e062-57ac-4206-9e9c-78af0ec86521/schema/leyou/table/tb_order_logistics">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_common/src/test/java/Send.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_common/src/test/java/Recv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/java1.8/jre/lib/rt.jar!/java/security/SecureRandom.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/JwtUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="513">
+          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/java1.8/jre/lib/rt.jar!/java/security/PublicKey.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/RsaUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="395">
+          <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/resources/rrr.java" />
-    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/LyAuthApplication.java">
+    <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/LyCartApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="243">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_dto/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/properties/AllowFilterProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/entity/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="27" />
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.1.5/mapper-base-1.1.5.jar!/tk/mybatis/mapper/common/base/select/SelectOneMapper.class">
+    <entry file="file://$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/properties/CorsProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="486">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_common/src/test/java/AuthTest.java">
+    <entry file="file://$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/gateway/config/CorsFilterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="-209">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_interface/src/main/java/com/leyou/user/UserClient.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="128" column="51" lean-forward="true" selection-start-line="128" selection-start-column="51" selection-end-line="128" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.4.RELEASE/spring-rabbit-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/support/RabbitExceptionTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_auth/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/auth/entity/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_dto/src/main/java/com/leyou/user/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/properties/JwtProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1658,104 +1504,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/auth/Payload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_dto/src/main/java/com/leyou/user/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RELEASE/spring-cloud-netflix-eureka-client-2.1.0.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4095">
-          <caret line="411" column="16" selection-start-line="411" selection-start-column="16" selection-end-line="411" selection-end-column="16" />
-          <folding>
-            <element signature="e#13957#13958#0" expanded="true" />
-            <element signature="e#14001#14002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/resources/META-INF/additional-spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/java1.8/jre/lib/rt.jar!/java/lang/annotation/Annotation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/annotation/AliasFor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE-sources.jar!/org/springframework/boot/context/properties/ConfigurationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
@@ -1764,86 +1512,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_sms/src/main/java/com/leyou/config/SmsConfiguration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-api/0.10.5/jjwt-api-0.10.5.jar!/io/jsonwebtoken/Jwt.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/config/JwtProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/service/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/validation/BindingResult.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/exception/enums/ResponseCode.java">
+    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/LyAuthApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/java1.8/jre/lib/rt.jar!/java/lang/RuntimeException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="270">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/exception/LyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/validation/FieldError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1854,31 +1543,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://5a25e062-57ac-4206-9e9c-78af0ec86521/schema/leyou/table/tb_spu_detail">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5a25e062-57ac-4206-9e9c-78af0ec86521/schema/leyou/table/tb_spu">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5a25e062-57ac-4206-9e9c-78af0ec86521/schema/leyou/table/tb_user/index/username">
+    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="483">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/service/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="383">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_gateway/src/main/java/com/leyou/gateway/filter/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_auth/src/main/java/com/leyou/auth/config/JwtProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_user_parent/ly_user_service/src/main/java/com/leyou/user/config/BcryptConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_cart/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="225" column="9" lean-forward="true" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_interface/src/main/java/com/leyou/ItemClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="48" column="75" lean-forward="true" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="65" column="92" lean-forward="true" selection-start-line="65" selection-start-column="92" selection-end-line="65" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/utils/JwtUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="116" column="84" lean-forward="true" selection-start-line="116" selection-start-column="84" selection-end-line="116" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_common/src/main/java/com/leyou/threadlocals/UserHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/interceptors/UserInterceptors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_item_parent/ly_item_service/src/main/java/com/leyou/item/mapper/SkuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_search/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly_cart/src/main/java/com/leyou/cart/service/CartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="102" column="36" lean-forward="true" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

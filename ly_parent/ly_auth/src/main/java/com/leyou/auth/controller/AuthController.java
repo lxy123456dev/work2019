@@ -33,4 +33,10 @@ public class AuthController {
         // 成功后直接返回
         return ResponseEntity.ok(authService.verifyUser(request, response));
     }
+
+    @PostMapping("logout")
+    public ResponseEntity<Void> logout(HttpServletRequest request, HttpServletResponse response) {
+        authService.logout(request, response);
+        return ResponseEntity.status(HttpStatus.NO_CONTENT).build();
+    }
 }

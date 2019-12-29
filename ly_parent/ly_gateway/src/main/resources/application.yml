@@ -25,6 +25,9 @@ zuul:
     auth-service:
       path: /auth/**
       serviceId: auth-service
+    cart-service:
+      path: /cart/**
+      serviceId: cart-service
   sensitive-headers:
 ly:
   cors:
@@ -43,3 +46,15 @@ ly:
       - HEAD
     maxAge: 360000
     filterPath: "/**"
+  jwt:
+    pubKeyPath: D:/ssh/id_rsa.pub # 公钥地址
+    user:
+      cookieName: LY_TOKEN # cookie名称
+  filter:
+    allowPaths:
+      - /api/auth/login
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/code
+      - /api/item
