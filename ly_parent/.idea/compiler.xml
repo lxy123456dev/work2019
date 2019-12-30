@@ -14,6 +14,7 @@
         <module name="ly_item_dto" />
         <module name="ly_item_interface" />
         <module name="ly_item_service" />
+        <module name="ly_order" />
         <module name="ly_page" />
         <module name="ly_registry" />
         <module name="ly_search" />
@@ -38,6 +39,7 @@
       <module name="ly_item_dto" options="-parameters" />
       <module name="ly_item_interface" options="-parameters" />
       <module name="ly_item_service" options="-parameters" />
+      <module name="ly_order" options="-parameters" />
       <module name="ly_page" options="-parameters" />
       <module name="ly_registry" options="-parameters" />
       <module name="ly_search" options="-parameters" />

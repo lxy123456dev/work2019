@@ -28,6 +28,10 @@ zuul:
     cart-service:
       path: /cart/**
       serviceId: cart-service
+    order-service:
+      path: /order/**
+      serviceId: order-service
+      strip-prefix: false  #将/order 作为真实请求路径
   sensitive-headers:
 ly:
   cors:

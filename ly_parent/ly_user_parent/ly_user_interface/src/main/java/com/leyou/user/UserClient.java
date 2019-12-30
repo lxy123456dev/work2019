@@ -9,4 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface UserClient {
     @GetMapping("query")
     UserDTO queryUserByUsernameAndPassword(@RequestParam("username") String username, @RequestParam("password") String password);
+
+    @GetMapping("/address")
+    AddressDTO queryAddressById(@RequestParam("userId") Long userId, @RequestParam("id") Long id);
 }

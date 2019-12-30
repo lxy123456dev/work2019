@@ -226,4 +226,12 @@ public class GoodsService{
         }
         return BeanHelper.copyWithCollection(skuList, SkuDTO.class);
     }
+
+    public List<SkuDTO> querySkusBySkuIds(List<Long> skuIdList) {
+        List<Sku> skuList = skuMapper.selectByIdList(skuIdList);
+        if (CollectionUtils.isEmpty(skuIdList)) {
+            throw new LyException(ResponseCode.CARTS_NOT_FOUND);
+        }
+        return BeanHelper.copyWithCollection(skuList, SkuDTO.class);
+    }
 }

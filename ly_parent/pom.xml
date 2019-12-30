@@ -21,6 +21,7 @@
         <module>ly_sms</module>
         <module>ly_auth</module>
         <module>ly_cart</module>
+        <module>ly_order</module>
     </modules>
     <packaging>pom</packaging>
 
